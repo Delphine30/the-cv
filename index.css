@@ -1,0 +1,286 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.photo{
+margin-left: 150px;
+border-radius: 50px;
+}
+.two{
+margin-left: 40px;
+font-size: 20px;
+}
+.del{
+margin-left: 40px;
+font-size: 20px;
+}
+.para1{
+margin-left: 40px;
+font-size: 20px;
+}
+.para2{
+    margin-left: 40px;
+    font-size: 20px;
+    }
+    .para3{
+        margin-left: 40px;
+        font-size: 20px;
+        }
+        .para4{
+            margin-left: 40px;
+            font-size: 20px;
+            }
+            .para5{
+                margin-left: 40px;
+                font-size: 20px;
+                }
+                .para6{
+                    margin-left: 40px;
+                    font-size: 20px;
+                    }
+.head1{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    }.head2{
+        color: white;
+        font-size: 25px;
+        margin-left: 40px;
+        text-decoration-line: underline;
+        }
+        .head3{
+            color: white;
+            font-size: 25px;
+            margin-left: 40px;
+            text-decoration-line: underline;
+            }.head4{
+                color: white;
+                font-size: 25px;
+                margin-left: 40px;
+                text-decoration-line: underline;
+                }
+                .head5{
+                    color: white;
+                    font-size: 25px;
+                    margin-left: 40px;
+                    text-decoration-line: underline;
+                    }
+                    .head6{
+                        color: white;
+                        font-size: 25px;
+                        margin-left: 40px;
+                        text-decoration-line: underline;
+                        }
+        
+
+body{
+background:rgb(90, 74, 74);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#name{
+text-decoration: underline;
+text-decoration-color: rgb(105, 180, 105);
+padding-top: 2%;
+text-underline-offset: 15px;
+}
+.left-side{
+background: rgb(151, 130, 130);
+width: 50%;
+height: 100%;
+}
+.right-side{
+
+width: 50%;
+ height: 100%; 
+
+
+} 
+.natus{
+margin-left: 10%;
+font-size: 17px;
+}
+.name{
+margin-left: 15%;
+font-size: 17px;
+}
+.h2{
+margin-left: 5%;
+}
+.img{
+margin-left: 50px;
+position: relative;
+}
+.comv{
+margin-left: 200%;
+margin-right: 10%;
+font-size: 17px;
+
+}
+.knowledge{
+background: rgb(156, 139, 117);
+}
+.skill h2{
+font-weight: 300px;
+letter-spacing: 1px;
+margin-bottom: 5px;
+color:rgb(133, 104, 104);
+font-size: 16px;
+
+}
+.progress-bar{
+    background: rgb(160, 146, 122);
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+}
+.bar div{
+height: 40px;
+border-radius: 5px;
+width: 100%;
+background: rgb(156, 117, 124);
+
+}
+
+.bar div span{
+height: 40px;
+width: 500px;
+border-radius: 50%;
+background: rgb(105, 180, 105);
+margin-right: -10px;
+/* color: #000; */
+float: right;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.HTML{
+background: rgb(131, 81, 98);
+animation: HTML is linear forwards;
+}
+.CSS{
+    background:rgb(173, 137, 137);
+    animation: HTML is linear forwards;
+    }.JAVA SCRIPT{
+        background: rgb(105, 180, 105);
+        animation: JAVA SCRIPTis linear forwards;
+        }
+        .OOP{
+            background: rgb(131, 81, 98);
+            animation: OOP is linear forwards;
+            }
+        .PYTHON{
+            background: rgb(131, 81, 98);
+            animation: PYTHON is linear forwards;
+            }
+            .DART-FLUTTER{
+                background: rgb(131, 81, 98);
+                animation: DART-FLUTTER is linear forwards;
+                }.DATABASE{
+                    background: rgb(131, 81, 98);
+                    animation: DATABASE is linear forwards;
+                    }
+                .MSQL{
+                    background: rgb(131, 81, 98);
+                    animation: MSQL is linear forwards;
+                    }
+                    .REACT{
+                        background: rgb(131, 81, 98);
+                        animation: REACT is linear forwards;
+                    
+                        }
+                    @keyframes HTML{
+                    100%{
+                    width:90% ;
+                    }
+                    }
+                
+                @keyframes CSS{
+                100%{
+                width:80% ;
+                }
+                }
+            
+            @keyframes JAVASCRIPT{
+            100%{
+            width:70% ;
+            }
+            }
+        
+        @keyframes OOP{
+        100%{
+        width:60% ;
+        }
+        }
+    
+    @keyframes PYTHON{
+    100%{
+    width:50% ;
+    }
+    }
+
+@keyframes DART-FLUTTER {
+100%{
+width:40% ;
+}
+}
+
+@keyframes DATABASE{
+100%{
+width:30% ;
+}
+}
+
+@keyframes MSQL{
+100%{
+width:20% ;
+}
+}
+@keyframes REACT{
+    100%{
+    width:10% ;
+    }
+    }
+.nav-nav{
+font-weight: 200;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 5px;
+color: #f0ffff;
+font-size: 60px;
+}
+
+.meta{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.progress-bar{
+background: rgb(109, 80, 85);
+width: 500px;
+height: 10px;
+border-radius: 5px;
+}
+.progress-bar div {
+height: 10px;
+border-radius: 5px;
+width: 0px;
+
+}
+.progress-bar div span{
+height: 18px;
+width: 40px;
+border-radius: 50px;
+background: #f0ffff;
+float: right;
+color: #f0ffff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+                
+                        
